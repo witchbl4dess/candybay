@@ -20,7 +20,7 @@ export default async function Home() {
               color: 'transparent'
             }}
             >
-              candybay
+              candybay.
             </h1>
           </div>
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t dark:from-background"></div>

@@ -103,14 +103,6 @@ model Agency {
   AddOns           AddOns[]
 }
 
-//model Owner {
-// id        String   @id @default(uuid())
-//name      String
-//agencyId  String
-//Agency    Agency @relation(fields: [agencyId], references: [id], onDelete: Cascade)
-//@@index([agencyId])
-//}
-
 model SubAccount {
   id               String                    @id @default(uuid())
   connectAccountId String?                   @default("")
